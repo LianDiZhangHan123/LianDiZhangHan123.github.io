@@ -1,6 +1,6 @@
 try{
-	importScripts('workbox-sw.js');
-}catch{
+	importScripts('/workbox-sw.js');
+}catch(err){
 	console.log("importScripts error");
 }
 
